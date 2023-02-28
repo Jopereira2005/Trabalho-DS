@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vendedor</title>
+</head>
+<body>
+    <form action="/lib/cad_vendedor" method="POST">
+        <h2 id="subtitle">Vendedor</h2>
+        <div id="nome">
+            <label for="nome">Nome: </label>
+            <input type="text" name="nome" id="nome">
+        </div>
+        <div id="cpf">
+            <label for="cpf">CPF: </label>
+            <input type="number" name="cpf" id="cpf">
+        </div>
+        <div id="dataNasc">
+            <label for="dtNasc">Data de nascimento: </label>
+            <input type="date" name="dataNasc" id="dataNasc">
+        </div>
+        <div id="dataCont">
+            <label for="dataContrat">Data de contratação: </label>
+            <input type="date" name="dataCont" id="dataCont">
+        </div>
+        <div id="salarioBase">
+            <label for="salarioBase">Salário base: </label>
+            <input type="number" name="salarioBase" id="salarioBase">
+        </div>
+        <div id="porcentagemCom">
+            <label for="porcentagemCom">Porcentagem de Comissão: </label>
+            <input type="text" name="porcentagemCom" id="porcentagemCom"">
+        </div>
+        <div id="btnCad">
+            <button type="submit" id="btnCad">Cadastrar</button>
+        </div>
+    </form>
+</body>
+</html>
